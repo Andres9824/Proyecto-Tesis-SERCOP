@@ -1,4 +1,4 @@
-# Porpuesta para la detección de Colusión en Compras Públicas con Aprendizaje No Supervisado
+# Propuesta para la detección de Colusión en Compras Públicas con Aprendizaje No Supervisado
 
 Este repositorio contiene el código y la documentación de un proyecto enfocado en la detección de posibles patrones de colusión en el sistema de compras públicas ecuatoriano (SERCOP) mediante la aplicación de técnicas de clustering.
 
