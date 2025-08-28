@@ -27,10 +27,3 @@ Este repositorio contiene el código y la documentación de un proyecto enfocado
 * [cite_start]**Identificación de Clústeres**: Se identificaron clústeres de subastas con características de oferta distintas[cite: 18].
 * [cite_start]**Patrones Anómalos**: Los análisis revelaron que ciertos clústeres, en particular el Clúster 0 y 2, tienen un `Coeficiente de Variación` bajo y una distribución de ofertas que se desvía de lo esperado en una subasta competitiva[cite: 88].
 * [cite_start]**Impacto Económico**: Se demostró que las pujas ganadoras en clústeres considerados competitivos (`Clúster 1`) tienden a ser significativamente menores que las de los clústeres con indicios de colusión, lo que subraya el perjuicio al Estado[cite: 124, 134].
-
-## Cómo Usar
-
-El código del proyecto se encuentra organizado en notebooks de Databricks, diseñados para ser ejecutados en un entorno de Spark.
-1.  **Configuración del Entorno**: Instalar las librerías necesarias (`pandas`, `scikit-learn`, etc.).
-2.  **Carga de Datos**: Conectar a la base de datos de origen para extraer los datos de subastas.
-3.  **Ejecución**: Correr los notebooks en orden para replicar el análisis.
