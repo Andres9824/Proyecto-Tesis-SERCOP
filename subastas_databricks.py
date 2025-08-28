@@ -301,7 +301,7 @@ upper_bound = filtered_df['amount'].quantile(0.95)
 plt.xlim([lower_bound, upper_bound])
 plt.gca().xaxis.set_major_formatter('${x:,.0f}')
 
-# 8. Líneas de mediana con etiquetas que incluyen número de cluster
+# 8. Líneas de mediana
 for cluster, (color, label) in palette.items():
     cluster_data = filtered_df[filtered_df['cluster'] == cluster]
     median = cluster_data['amount'].median()
@@ -419,8 +419,8 @@ q99 = filtered_min_bids['min_amount'].quantile(0.95)
 plt.xlim([q1, q99])
 plt.gca().xaxis.set_major_formatter('${x:,.0f}')
 
-# 9. Líneas de mediana con etiquetas detalladas
-# Líneas de mediana y media con etiquetas detalladas
+# 9. Líneas de mediana
+
 for cluster, (color, label) in palette.items():
     cluster_data = filtered_min_bids[filtered_min_bids['cluster'] == cluster]['min_amount']
     
@@ -498,7 +498,7 @@ cluster_summary
 
 # COMMAND ----------
 
-# Opción 3 (opcional): slider para filtrar cluster (requiere ipywidgets)
+
 # pip install ipywidgets
 import ipywidgets as widgets
 from IPython.display import display
